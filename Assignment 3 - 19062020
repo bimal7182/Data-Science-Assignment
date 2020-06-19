@@ -1,0 +1,51 @@
+Question: Define Linear Algebra equation on scenarios where
+
+
+‘A’ * ’x’ = ‘B’, where A is the constant and x is represented as the co-efficient and B is the resultant.
+
+Answer. With the current global pandemic and its after effect where most of us have been asked to work remotely, time and then we are also required to help in household chores. One of them is “Washing Dishes”.
+
+More often than not i find it quite strange that we gather so many utensils in one single meal, and my observation there of.
+
+Each meal requires a set of utensils to be prepared.
+
+Being a choosy eater, and now learning Data Science i think i can somewhat represent my eating choices which has a direct impact on the afterwork that will be asked of me.
+
+in this example 
+A represents number of Items required.
+x represents utensils used
+B represents the ‘pakwan’/dish
+
+type of utensils:
+
+Small Pan (SP)
+Pot (PT)
+Pressure Cooker (PC)
+Frying Pan (FP)
+Saucer (SC)
+Oven (OV)
+Spatula (ST)
+Slotted Spoon (SS)
+Serving Spoon (SR)
+Tawa/Flat Pan (TW)
+Grinder (GR)
+
+
+1 SP+ 2 PT+ 0 PC + 1 FP+ 1 SC+ 0 OV+ 0 ST+ 1 SS+ 1 SR+ 0 TW+ 1 GR         	Biryani		(BR)
+0 SP+ 0 PT+ 0 PC + 0 FP+ 2 SC+ 0 OV+ 1 ST+ 0 SS+ 1 SR+ 1 TW+ 1 GR	          Dosa		(DS)
+0 SP+ 1 PT+ 0 PC + 1 FP+ 2 SC+ 0 OV+ 0 ST+ 1 SS+ 1 SR+ 0 TW+ 0 GR	          Pakoda	(PK)	
+1 SP+ 0 PT+ 0 PC + 0 FP+ 2 SC+ 1 OV+ 0 ST+ 1 SS+ 1 SR+ 0 TW+ 1 GR	          Pasta 		(PT)
+1 SP+ 0 PT+ 0 PC + 1 FP+ 2 SC+ 0 OV+ 1 ST+ 0 SS+ 1 SR+ 1 TW+ 0 GR	          Egg Omlette	(EO)
+
+1	  0	  0	  1	  1		SP				
+2	  0	  1	  0	  0		PT
+0	  0	  0	  0	  0		PC					BR
+1	  0	  1	  0	  1		FP					
+1	  2	  2	  2	  2		SC					DS
+0	  0	  0	  1	  0		OV
+0	  1	  0	  0	  1		ST					PK
+1	  0	  1	  1	  0		SS
+1	  1	  1	  1	  1		SR					PT
+0	  1	  0	  0	  1		TW
+1	  1	  0	  1	  0		GR					EO
+		A				         X					B
